@@ -1,0 +1,36 @@
+{
+  "name": "ton-link-node-v4",
+  "version": "4.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ton-link/ton-link-node-v4.git"
+  },
+  "author": "Konstantin <konstantin@quadrate.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ton-link/ton-link-node-v4.git/issues"
+  },
+  "homepage": "https://github.com/ton-link/ton-link-node-v4.git#readme",
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/ton": "^13.9.0",
+    "colorts": "^0.1.63",
+    "dotenv": "^16.3.1",
+    "jscrypto": "^1.0.3",
+    "moment": "^2.29.4",
+    "tonweb": "^0.0.62",
+    "tonweb-mnemonic": "^1.0.1",
+    "ts-proto": "^1.161.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/cli-color": "^2.0.3"
+  }
+}
