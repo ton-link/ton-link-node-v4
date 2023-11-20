@@ -3,7 +3,7 @@ export function Delay(ms: number) {
 }
 
 export function GetActualTime(): number {
-        return Date.now()
+        return Math.floor(Date.now() / 1000)
 }
 
 export interface PreviousVote {
