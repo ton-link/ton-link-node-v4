@@ -80,7 +80,7 @@ export async function CmdStart(mnemonic: string, network: string, oracle: string
                                 const seqno = (await wallet.methods.seqno().call()) || 0;
                                 const result = await wallet.methods.transfer({
                                         secretKey: keyPair.secretKey,
-                                        toAddress: (process.env).ORACLEADDRESS,
+                                        toAddress: oracle,
                                         amount: TonWeb.utils.toNano("0.05"),
                                         seqno: seqno,
                                         payload: msg,
